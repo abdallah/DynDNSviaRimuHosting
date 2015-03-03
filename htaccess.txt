@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "DDNS"
+# use http://www.htaccesstools.com/htpasswd-generator/
+AuthUserFile /path/to/my/.htpasswd
+Require valid-user
